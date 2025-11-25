@@ -10,7 +10,7 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "IK~YFkxEZ6K#B9fTeY20Vafigr5hEjX8VsUuuIOTmQXqMHScZPivFc0",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     CHATBOT: getConfig("CHATBOT") || "on", // on/off chat bot 
     BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "DARKZONE-MD",  // Bot's display name
@@ -19,7 +19,7 @@ module.exports = {
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",  // Bot's BAILEYS
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "923306137477",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923220210874",  // Owner's WhatsApp number
     OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟",           // Owner's name
     DEV: process.env.DEV || "923306137477",                     // Developer's contact number
     DEVELOPER_NUMBER: '923306137477@s.whatsapp.net',            // Developer's WhatsApp ID
@@ -33,8 +33,8 @@ module.exports = {
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
     OWNER_REACT: process.env.OWNER_REACT || "false",              // Auto-react to messages?
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
-    CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // set custom reacts
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",          // Use custom emoji reactions?
+    CUSTOM_REACT_EMOJIS: getConfig("CUSTOM_REACT_EMOJIS") || process.env.CUSTOM_REACT_EMOJIS || "👑",  // set custom reacts
     STICKER_NAME: process.env.STICKER_NAME || "𝐸𝑅𝐹𝒜𝒩 𝒜𝐻𝑀𝒜𝒟",     // Sticker pack name
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
     // ===== MEDIA & AUTOMATION =====
